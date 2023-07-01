@@ -352,7 +352,7 @@ body.dark-theme {
   padding: 1rem;
   display: grid;
   grid-gap: 10px;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
 }
 .services1__data {
   display: grid;
@@ -514,6 +514,11 @@ body.dark-theme {
   .tek__buttons {
     grid-template-columns: max-content;
   }
+  .services1__container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr;
+  }
 }
 
 /* For medium devices */
@@ -553,6 +558,11 @@ body.dark-theme {
   .tek__img {
     order: -1;
   }
+  .services1__container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
 @media screen and (min-width: 767px) {
@@ -580,6 +590,11 @@ body.dark-theme {
   }
   .tek__buttons {
     justify-content: initial;
+  }
+  .services1__container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
 

@@ -403,6 +403,10 @@ body.dark-theme {
 }
 
 /*=============== TESTI ===============*/
+
+.testi__buttons {
+  text-align: center;
+}
 .wrapper {
   padding: 2rem;
   position: relative;
@@ -506,6 +510,7 @@ body.dark-theme {
     grid-auto-columns: 100%;
   }
 }
+
 /*=============== FOOTER ===============*/
 .footer {
   background-color: var(--first-color-lighten);
